@@ -50,7 +50,7 @@ session_start();
 					$amount = $_POST['amount'];
 
 
-					$insertquery = "insert into payment(email,name,bank,number,transaction_id,product_id,amount) values('$email', '$name', '$bank', '$number', '$tnx', '$product', '$amount' )";
+					$insertquery = "insert into payment(email,username,bank,number,transaction_id,product_id,amount) values('$email', '$name', '$bank', '$number', '$tnx', '$product', '$amount' )";
 						$iquery =mysqli_query ($con, $insertquery);
 
 						if($iquery){
