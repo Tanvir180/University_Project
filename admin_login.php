@@ -51,7 +51,7 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active">Home</a></li> 
+								<li><a href="index.php" class="active">Home</a></li> 
 							</ul>
 						</div>
 					</div>
@@ -85,7 +85,7 @@
 									<div class="form-group">
 										<button type="submit" class="btn btn-success mx-3 my-2">login</button>
 										<button type="reset" class="btn btn-danger mx-3 my-2">Reset</button>
-									</div><p class=" text-white"><a href="admin_dashboard.html" class="txt">dashboard</a></p>
+									</div><p class=" text-white"><a href="admin_dashboard.php" class="txt">dashboard</a></p>
 								</form>
 							</div>
 						</div>

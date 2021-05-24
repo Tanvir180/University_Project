@@ -123,10 +123,10 @@ session_start();
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active">Home</a></li> 
-								<li><a href="about.html">About</a></li>
-								<li><a href="feedback.html">Feedback</a></li>
-								<li><a href="del_status.html">Delivery-status</a></li>
+								<li><a href="index.php" class="active">Home</a></li> 
+								<li><a href="about.php">About</a></li>
+								<li><a href="feedback.php">Feedback</a></li>
+								<li><a href="del_status.php">Delivery-status</a></li>
 							</ul>
 						</div>
 					</div>

@@ -120,9 +120,9 @@ session_start();
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active">Home</a></li> 
-								<li><a href="about.html">About</a></li>
-								<li><a href="feedback.html">Feedback</a></li>
+								<li><a href="index.php" class="active">Home</a></li> 
+								<li><a href="about.php">About</a></li>
+								<li><a href="feedback.php">Feedback</a></li>
 							</ul>
 						</div>
 					</div>
@@ -168,7 +168,7 @@ session_start();
 									<input type="password" name="password" id="pass"  class="form-control form-control-lg " required="">
 								</div>
 
-								<p class=" text-white">Don't Have Any Account? &nbsp &nbsp &nbsp <a href="registrationCust.html" class="txt">Registration</a></p>
+								<p class=" text-white">Don't Have Any Account? &nbsp &nbsp &nbsp <a href="registrationCust.php" class="txt">Registration</a></p>
 								<p class=" text-white">Forgot Password &nbsp &nbsp &nbsp <a href="recover_email.php" class="txt text-danger">Click Here</a></p>
 								<div class="card-footer text-center">
 									<div class="form-group">
@@ -194,4 +194,4 @@ session_start();
 		<!-- Main JS -->
 		<script src="assets/js/main.js"></script>
 	</body>
-</html>
+</html> 

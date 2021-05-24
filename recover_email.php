@@ -51,7 +51,7 @@ session_start();
 
 			$subject = "Password Reset";
 			$body = "Hi, $username. Click here too reset your Password  
-			 http://localhost:7882/1st-project-master/reset_password.php?token=$token";
+			 http://localhost:7882/university_project/reset_password.php?token=$token";
 			$sender = "From: hmhridoy65@gmail.com";
 			if (mail($email, $subject, $body, $sender)) {
 			$_SESSION['msg'] = "Check your mail to reset your password $email";

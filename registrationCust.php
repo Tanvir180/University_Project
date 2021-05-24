@@ -70,7 +70,7 @@ session_start();
 
 
 			$subject = "Email Activation";
-			$body = "Hi, $username. Click here too activate your account   http://localhost:7882/1st-project-master/activate.php?token=$token";
+			$body = "Hi, $username. Click here too activate your account   http://localhost:7882/university_project/activate.php?token=$token";
 			$sender = "From: hmhridoy65@gmail.com";
 			if (mail($email, $subject, $body, $sender)) {
 			$_SESSION['msg'] = "Check your mail to activate your account $email";
@@ -133,9 +133,9 @@ session_start();
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active">Home</a></li> 
-								<li><a href="about.html">About</a></li>
-								<li><a href="feedback.html">Feedback</a></li>
+								<li><a href="index.php" class="active">Home</a></li> 
+								<li><a href="about.php">About</a></li>
+								<li><a href="feedback.php">Feedback</a></li>
 							</ul>
 						</div>
 					</div>
@@ -201,7 +201,7 @@ session_start();
 									<div class="form-group">
 										<button type="submit" name="submit" class="btn btn-success mx-3">Register</button>
 										<button type="reset" class="btn btn-danger mx-3">Reset</button>
-										<a href="logincustomer.html" class="btn btn-primary mx-3 my-2">Back</a>
+										<a href="logincustomer.php" class="btn btn-primary mx-3 my-2">Back</a>
 									</div>
 								</form>
 							</div>

@@ -38,7 +38,7 @@
 		<div class="col-md-8 clearfix">
 			<div class="shop-menu clearfix pull-right">
 				<ul class="nav navbar-nav">
-					<li><a href="admin_account.html"><i class="fa fa-user"></i> Account</a></li>
+					<li><a href="admin_account.php"><i class="fa fa-user"></i> Account</a></li>
 				</ul>
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 	<div class="row">
 		<div class="col-sm-3">
 			<ul class="nav navbar-nav listy">
-				<li><a href="admin_dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp Dashboard</a></li>
+				<li><a href="admin_dashboard.php"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp Dashboard</a></li>
 				<li class="dropdown"><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp Manage<i class="fa fa-angle-down"></i> </a>
 				<ul role="menu" class="sub-menu cust">
 					<li><a href="#">Customer</a></li>

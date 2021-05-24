@@ -30,9 +30,9 @@
 					<div class="col-md-8 clearfix">
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="account.html"><i class="fa fa-user"></i> Account</a></li>
-								<li><a href="wishlist.html"><i class="fa fa-star-o" aria-hidden="true"></i> Wishlist</a></li>
-								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i><sup class="number badge bg-light rounded-circle">2</sup> Cart</a></li>
+								<li><a href="account.php"><i class="fa fa-user"></i> Account</a></li>
+								<li><a href="wishlist.php"><i class="fa fa-star-o" aria-hidden="true"></i> Wishlist</a></li>
+								<li><a href="cart.php"><i class="fa fa-shopping-cart"></i><sup class="number badge bg-light rounded-circle">2</sup> Cart</a></li>
 							</ul>
 						</div>
 					</div>
@@ -54,10 +54,10 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active">Home</a></li> 
-								<li><a href="about.html">About</a></li>
-								<li><a href="feedback.html">Feedback</a></li>
-								<li><a href="del_status.html">Delivery-status</a></li>
+								<li><a href="index.php" class="active">Home</a></li> 
+								<li><a href="about.php">About</a></li>
+								<li><a href="feedback.php">Feedback</a></li>
+								<li><a href="del_status.php">Delivery-status</a></li>
 							</ul>
 						</div>
 					</div>
@@ -174,7 +174,7 @@
 							<li>delivery charge <span>Free</span></li>
 							<li>Total <span>৳ 23023</span></li>
 						</ul>
-							<a class="btn btn-default update" href="">Payment</a>
+							<a class="btn btn-default update" href="payment.php">Payment</a>
 				</div>
 			</div>
 		</div>

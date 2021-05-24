@@ -25,13 +25,13 @@
 					<div class="col-md-8 clearfix">
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="account.html"><i class="fa fa-user"></i> Account</a></li>
-								<li><a href="wishlist.html"><i class="fa fa-star-o" aria-hidden="true"></i> Wishlist</a></li>
-								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i><sup class="number badge bg-light rounded-circle">2</sup> Cart</a></li>
+								<li><a href="account.php"><i class="fa fa-user"></i> Account</a></li>
+								<li><a href="wishlist.php"><i class="fa fa-star-o" aria-hidden="true"></i> Wishlist</a></li>
+								<li><a href="cart.php"><i class="fa fa-shopping-cart"></i><sup class="number badge bg-light rounded-circle">2</sup> Cart</a></li>
 								<li class="dropdown"><a href="#"><i class="fa fa-lock"></i>Sign up/Login as<i class="fa fa-angle-down"></i> </a>
 									 <ul role="menu" class="sub-menu">
                                         <li><a href="#">Admin</a></li>
-										<li><a href="logincustomer.html">Customer</a></li>
+										<li><a href="logincustomer.php">Customer</a></li>
 										 <li><a href="#">Shopper</a></li>
 										<li><a href="#">Delivery Boy</a></li>
                                     </ul>
@@ -57,9 +57,9 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active">Home</a></li> 
-								<li><a href="about.html">About</a></li>
-								<li><a href="feedback.html">Feedback</a></li>
+								<li><a href="index.php" class="active">Home</a></li> 
+								<li><a href="about.php">About</a></li>
+								<li><a href="feedback.php">Feedback</a></li>
 							</ul>
 						</div>
 					</div>
@@ -91,9 +91,9 @@
 								<div id="sportswear" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="Smartphn.html">SmartPhones </a></li>
-											<li><a href="Laptop.html">Laptops </a></li>
-											<li><a href="Desktop.html">Desktops </a></li>
+											<li><a href="Smartphn.php">SmartPhones </a></li>
+											<li><a href="Laptop.php">Laptops </a></li>
+											<li><a href="Desktop.php">Desktops </a></li>
 										</ul>
 									</div>
 								</div>
@@ -110,11 +110,11 @@
 								<div id="mens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="t-shirt.html">T-Shirts</a></li>
-											<li><a href="Shirt.html">Shirts</a></li>
-											<li><a href="jeans_male.html">Jeans</a></li>
-											<li><a href="Panjabi.html">Panjabi & Fatua</a></li>
-											<li><a href="Coat_male.html">Jackets & Coats</a></li>
+											<li><a href="t-shirt.php">T-Shirts</a></li>
+											<li><a href="Shirt.php">Shirts</a></li>
+											<li><a href="jeans_male.php">Jeans</a></li>
+											<li><a href="Panjabi.php">Panjabi & Fatua</a></li>
+											<li><a href="Coat_male.php">Jackets & Coats</a></li>
 										</ul>
 									</div>
 								</div>
@@ -132,28 +132,28 @@
 								<div id="womens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="Saree.html">Saree </a></li>
-											<li><a href="Shalwar_Kameez.htmlh">Shalwar kameez </a></li>
-											<li><a href="Kurti.html">Kurtis </a></li>
-											<li><a href="jeans.html">Ladies jeans </a></li>
-											<li><a href="Jacket_coat.html">Jackets & Coats </a></li>
+											<li><a href="Saree.php">Saree </a></li>
+											<li><a href="Shalwar_Kameez.php">Shalwar kameez </a></li>
+											<li><a href="Kurti.php">Kurtis </a></li>
+											<li><a href="jeans.php">Ladies jeans </a></li>
+											<li><a href="Jacket_coat.php">Jackets & Coats </a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="kids.html">Kids</a></h4>
+									<h4 class="panel-title"><a href="kids.php">Kids</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="watch.html">Watches</a></h4>
+									<h4 class="panel-title"><a href="watch.php">Watches</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="shoe.html">Shoes</a></h4>
+									<h4 class="panel-title"><a href="shoe.php">Shoes</a></h4>
 								</div>
 							</div>
 						</div><!--/category-products-->
